@@ -1,5 +1,16 @@
+# Ignore conan
 conan.lock
 conanbuildinfo**
 conaninfo.txt
 graph_info.json
+conan_imports_manifest.txt
 
+# Ignore vs
+.vs/**
+**.sln
+**.vcxproj
+**.vcxproj.user
+
+# Ignore binary output
+bin/**
+app/**.dll
